@@ -7,4 +7,9 @@ function AtivaCSS() {
         link.id = 'css-dinamico';
         document.head.appendChild(link);
     }
+    // Mostra a explicação
+    var explicacao = document.getElementById('explicacao-css');
+    if (explicacao) {
+        explicacao.style.display = 'block';
+    }
 }
